@@ -2,14 +2,14 @@
 version: 1
 project:
   id: 8e9a5dbc-4cdf-4593-b9b7-ff8679c7a291
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  title: A theoretical Review of Quantum Error Corrections
+  description: Comprehending, Analysing and Understanding Quantum Error Correction Codes
+  keywords: [Quantum Computing, Quantum Error Correction Codes, Stabilizers]
+  authors: [Sergio Montoya Ramirez]
   github: https://github.com/S1e7J/Thesis
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+     favicon: favicon.ico
+     logo: site_logo.png
