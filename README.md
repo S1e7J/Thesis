@@ -10,4 +10,4 @@ Quantum computing (QC) is a promising paradigm that offers potentially exponenti
 Quantum error-correction (QEC) is a field developed to address this challenge. It was demonstrated that quantum information could be encoded non-locally by distributing it across multiple qubits [@Shor1996]. Codes that employ this strategy are known as quantum error-correcting codes (QECCs). The efficacy of this method has been supported by experimental improvements in physical quantum computers [@IBM2025]. Nevertheless, quantum error-correction remains an open area of research, and advancements in QEC are critical for the continued development of QC [@IBM2025].
 
 
-TODO:Terminar la Introducción
+<!-- TODO:Terminar la Introducción -->
