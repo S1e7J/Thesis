@@ -1,0 +1,12 @@
+\documentclass[tikz,convert={convertexe={magick},outext=.png}]{standalone}
+\begin{document}
+\begin{tikzpicture}
+    \node at (0,0) {0};
+    \draw[->] (0.1,0) -- (1, 0);
+    \node at (1.3,0) {000};
+
+    \node at (0,1) {1};
+    \draw[->] (0.1,1) -- (1, 1);
+    \node at (1.3,1) {111};
+\end{tikzpicture}
+\end{document}
