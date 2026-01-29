@@ -7,8 +7,8 @@ project:
   keywords: [Quantum Computing, Quantum Error Correction Codes, Stabilizers]
   authors: [Sergio Montoya Ramirez]
   github: https://github.com/S1e7J/Thesis
-  files:
-    - "content/**/*.md"
+  exclude:
+    - ./images/
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
