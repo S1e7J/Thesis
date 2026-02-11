@@ -1,0 +1,9 @@
+\documentclass[tikz,convert={convertexe={magick},outext=.png}]{standalone}
+\usepackage{quantikz}
+\begin{document}
+\begin{quantikz}
+  \lstick{$\ket{\psi}$} & \qw & \qw & \ctrl{1} & \ctrl{2} & \qw & & \lstick{$\ket{\psi}$} \\
+  && \lstick{$\ket{0}$} & \targ{} & \qw & \qw & & \lstick{$\ket{\psi}$} \\
+  && \lstick{$\ket{0}$} & \qw & \targ{} & \qw &  & \lstick{$\ket{\psi}$} \\
+\end{quantikz}
+\end{document}
